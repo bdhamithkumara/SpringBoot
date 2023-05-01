@@ -1,5 +1,6 @@
 package com.example.demo.entity;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -12,6 +13,8 @@ import lombok.ToString;
 //1
 @Entity
 //2
+// table name change as to tbl_student
+// if we did not mention the table name that table name select the table name as Student
 @Table(name="tbl_student")
 //3
 @Data
@@ -28,6 +31,9 @@ public class Student {
 	//6 create entities
 	private Long id;
 	private String name;
+	// if you wish to change the column name use this
+	//@Column(name="column as set address")
+	//import jakarta.persistence.Column;
 	private String address;
 	private String gender;
 
