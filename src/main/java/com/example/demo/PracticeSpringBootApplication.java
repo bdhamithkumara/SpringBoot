@@ -8,6 +8,8 @@ public class PracticeSpringBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PracticeSpringBootApplication.class, args);
+		//showing the running application on console
+		System.out.println("Application running start");
 	}
 
 }
