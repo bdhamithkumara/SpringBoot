@@ -26,7 +26,7 @@ public class Student {
 	// 8 auto increment
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	//6 create entities
-	private long id;
+	private Long id;
 	private String name;
 	private String address;
 	private String gender;
